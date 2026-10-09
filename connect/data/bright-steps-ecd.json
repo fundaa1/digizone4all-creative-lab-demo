@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "0.2",
+  "id": "bright-steps-ecd",
+  "name": "Bright Steps ECD",
+  "category": "ECD Centre",
+  "location": {
+    "area": "KwaMashu",
+    "city": "Durban",
+    "province": "KwaZulu-Natal"
+  },
+  "summary": "A fictional early learning centre in KwaMashu. Play-based sessions and school-readiness activities for ages 2 to 5. No children are enrolled through this demo.",
+  "hours": "Weekdays 07:00–16:00",
+  "offerings": [
+    "Play-based sessions for ages 2 to 5",
+    "School-readiness activities",
+    "Visitor information about a fictional centre"
+  ],
+  "contact": {
+    "label": "Demo enquiry only"
+  },
+  "fictional": true,
+  "publication": {
+    "status": "static-demo",
+    "note": "Included in the fictional static demo. This is not a live public listing."
+  },
+  "profilePath": "/connect/bright-steps-ecd"
+}

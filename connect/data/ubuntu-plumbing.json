@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "0.2",
+  "id": "ubuntu-plumbing",
+  "name": "Ubuntu Plumbing",
+  "category": "Plumbing",
+  "location": {
+    "area": "Pietermaritzburg",
+    "city": "Pietermaritzburg",
+    "province": "KwaZulu-Natal"
+  },
+  "summary": "A fictional plumbing practice in Pietermaritzburg. Leak checks, blocked drains and geyser inspections. No call-out number is published and no trade licence is claimed.",
+  "hours": "Weekdays 08:00–17:00",
+  "offerings": [
+    "Visible leak checks",
+    "Blocked-drain clearing",
+    "Geyser inspection"
+  ],
+  "contact": {
+    "label": "Demo enquiry only"
+  },
+  "fictional": true,
+  "publication": {
+    "status": "static-demo",
+    "note": "Included in the fictional static demo. This is not a live public listing."
+  },
+  "profilePath": "/connect/ubuntu-plumbing"
+}

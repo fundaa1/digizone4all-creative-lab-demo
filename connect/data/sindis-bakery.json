@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "0.2",
+  "id": "sindis-bakery",
+  "name": "Sindi's Bakery",
+  "category": "Bakery",
+  "location": {
+    "area": "Umlazi",
+    "city": "Durban",
+    "province": "KwaZulu-Natal"
+  },
+  "summary": "A fictional neighbourhood bakery in Umlazi. Bread, rolls and celebration cakes. This page is not an order form and not a real shop.",
+  "hours": "Mon–Sat 06:00–17:00",
+  "offerings": [
+    "Daily bread and rolls",
+    "Celebration cakes to order",
+    "Weekday midday pies"
+  ],
+  "contact": {
+    "label": "Demo enquiry only"
+  },
+  "fictional": true,
+  "publication": {
+    "status": "static-demo",
+    "note": "Included in the fictional static demo. This is not a live public listing."
+  },
+  "profilePath": "/connect/sindis-bakery"
+}

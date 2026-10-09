@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10192d">
+<meta name="description" content="DigiZone Connect fictional record capture, not a live service.">
+<meta name="robots" content="noindex,nofollow">
+<title>DEMO · Capture | DigiZone Connect</title>
+<link rel="stylesheet" href="assets/dz-connect.css?v=0.2">
+</head>
+<body data-page="capture">
+<aside class="demo-banner" aria-label="Demo notice"><div class="wrap"><strong>DEMO — FICTIONAL DATA ONLY</strong><span>Made-up organisations. No real telephone numbers. No beneficiary information. Nothing here is a live service.</span></div></aside>
+<header class="top"><div class="wrap bar"><a class="brand" href="../index.html"><span class="brandmark">DZ<span aria-hidden="true">↗</span></span> DigiZone<span style="color:var(--lime)">4All</span></a><nav class="nav" aria-label="Demo navigation"><a href="../index.html">Lab home</a><a href="index.html">Directory</a><a href="capture.html" aria-current="page">Capture</a></nav></div></header>
+<section class="hero"><div class="wrap inner"><p class="eyebrow">DigiZone Connect · Capture</p><h1>Prepare a record. <em>Do not publish it here.</em></h1><p class="lede">This form checks a fictional organisation record and can save it as JSON on your device. Saving the file does not put the organisation in the directory.</p><div class="chips"><span class="chip">● DEMO · Fictional simulation</span><span class="chip">◆ No telephone field</span><span class="chip">↗ Export is not publication</span></div></div></section>
+<main class="main" id="content"><div class="wrap">
+<section class="callout boundary"><h2>Exporting JSON is not public publication.</h2><p>A valid download stays on your device. In this version, a public profile is a controlled static build and deploy step: add the record to the static directory, generate its page, review it, and deploy. This form does not do that step.</p></section>
+<div class="grid">
+<section class="panel form-panel" aria-labelledby="editor"><p class="smallcaps">01 · Fictional information</p><h2 id="editor">Organisation record</h2>
+<form id="capture-form" autocomplete="off" novalidate>
+<label class="field" for="org-name">Organisation name</label>
+<input class="input" id="org-name" name="name" maxlength="80" placeholder="Fictional organisation name">
+<label class="field" for="org-category">Category</label>
+<select class="input" id="org-category" name="category">
+<option value="">Choose a category</option>
+<option>ECD Centre</option>
+<option>Bakery</option>
+<option>Plumbing</option>
+</select>
+<label class="field" for="org-area">Area or neighbourhood</label>
+<input class="input" id="org-area" name="area" maxlength="80" placeholder="Neighbourhood">
+<label class="field" for="org-city">City</label>
+<input class="input" id="org-city" name="city" maxlength="80" placeholder="City">
+<label class="field" for="org-province">Province</label>
+<input class="input" id="org-province" name="province" maxlength="80" value="KwaZulu-Natal">
+<label class="field" for="org-summary">What do you offer?</label>
+<textarea id="org-summary" name="summary" maxlength="280" placeholder="A short fictional description. Do not include telephone numbers, email addresses or identity numbers."></textarea>
+<label class="field" for="org-hours">Opening or operating times</label>
+<input class="input" id="org-hours" name="hours" maxlength="80" placeholder="Weekdays 08:00–16:00">
+<label class="field" for="org-offerings">Offerings, one per line (optional)</label>
+<textarea id="org-offerings" name="offerings" maxlength="500" placeholder="One fictional offering per line"></textarea>
+<div class="checks"><input id="confirm-fictional" type="checkbox"><label for="confirm-fictional">This record is fictional. It does not name a real client, child, parent or beneficiary.</label></div>
+<div class="checks"><input id="confirm-export" type="checkbox"><label for="confirm-export">I understand that exporting JSON does not publish a public profile.</label></div>
+<div id="errors" class="errors" hidden></div>
+<div class="actions"><button class="btn" type="submit" id="export-json">Export JSON file</button><button class="btn secondary" type="button" id="copy-json">Copy JSON</button></div>
+<p id="notice" class="status" role="status"></p>
+<p class="small">Suggested record id: <span id="record-id">profile</span>. Nothing is stored in this browser.</p>
+</form>
+</section>
+<section class="panel" aria-labelledby="preview-heading"><p class="smallcaps">02 · Preview</p><h2 id="preview-heading">Unpublished profile preview</h2>
+<div id="profile-preview" style="margin-top:15px"></div>
+<h2 class="mini-head">JSON that would be saved</h2>
+<pre id="record-view" class="record-view" aria-live="polite"></pre>
+<p class="small">The contact line stays “Demo enquiry only”. This preview is not on the directory.</p>
+</section>
+</div>
+</div></main>
+<footer class="footer"><div class="wrap"><span>DEMO · DigiZone Connect v0.2 — Fictional founder exploration. No organisational adoption is implied.</span><span>Visible. Connected. Capable. · People First. Technology Second.</span></div></footer>
+<script src="assets/dz-connect.js?v=0.2"></script>
+</body>
+</html>
